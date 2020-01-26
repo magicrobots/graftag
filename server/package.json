@@ -1,0 +1,32 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "graftag db",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/magicrobots/graftag.git"
+  },
+  "keywords": [
+    "graffiti",
+    "tag",
+    "throwup",
+    "slap"
+  ],
+  "author": "Adam Hilliker",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/magicrobots/graftag/issues"
+  },
+  "homepage": "https://github.com/magicrobots/graftag#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "express-graphql": "^0.9.0",
+    "graphql": "^14.5.8",
+    "mongoose": "^5.8.9"
+  }
+}
